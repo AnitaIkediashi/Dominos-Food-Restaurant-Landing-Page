@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominos Food Restaurant Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <div class="logo">
+            <a href="#"><img src="images/domino.png" alt="dominos food"></a>
+            <span>dominos food</span>
+        </div>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#dishes">dishes</a>
+            <a href="#menu">menu</a>
+            <a href="#order">order</a>
+            <a href="#blog">blog</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </section>
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>classic dish</span>
+                        <h3>hot and spicy</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt accusantium similique deleniti ea mollitia consequuntur quas ducimus doloremque fuga nobis.</p>
+                        <a href="#" class="btn">get yours now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>classic dish</span>
+                        <h3>tasty fried chicken</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt accusantium similique deleniti ea mollitia consequuntur quas ducimus doloremque fuga nobis.</p>
+                        <a href="#" class="btn">get yours now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-2.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>classic dish</span>
+                        <h3>hot pizza</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt accusantium similique deleniti ea mollitia consequuntur quas ducimus doloremque fuga nobis.</p>
+                        <a href="#" class="btn">get yours now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image">
+                <img src="images/about-img.png" alt="">
+            </div>
+            <div class="content">
+                <h3>what we stand for</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio unde animi corrupti eum eos sequi deleniti fugiat. Quidem adipisci nam nulla ad! Ab, quaerat. Eius dolorem possimus doloribus voluptatum laudantium!</p>
+                <a href="#" class="btn">learn more</a>
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/about-icon-1.png" alt="">
+                        <div class="text">delicious foods</div>
+                    </div>
+                    <div class="box">
+                        <img src="images/about-icon-2.png" alt="">
+                        <div class="text">drinks</div>
+                    </div>
+                    <div class="box">
+                        <img src="images/about-icon-3.png" alt="">
+                        <div class="text">expert chefs</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+        <div class="heading">
+            <h3>delicious <span>dishes</span></h3>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/dish-1.png" alt="">
+                <h3>hamburger</h3>
+                <div class="price">$8.99</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/dish-2.png" alt="">
+                <h3>crispy chicken and sauce</h3>
+                <div class="price">$9.99</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/dish-3.png" alt="">
+                <h3>fried chicken</h3>
+                <div class="price">$11.99</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/dish-4.png" alt="">
+                <h3>pizza</h3>
+                <div class="price">$6.99</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/dish-5.png" alt="">
+                <h3>ice cream</h3>
+                <div class="price">$4.99</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/dish-6.png" alt="">
+                <h3>crispy chicken</h3>
+                <div class="price">$5.99</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span>appetizers</span>
+        </div>
+        <div class="swiper menu-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <h3 class="title">delicious food</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h4>nacho supreme</h4>
+                                <p>Large bed of nacho chips topped with tomatoes, onions, peppers, and baked with cheese.</p>
+                            </div>
+                            <div class="price">$10.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h4>mexican dip</h4>
+                                <p>Blend of cream cheese, salsa, cheddar and mozza cheese, served with nacho chips and sdeep fried pita bread.</p>
+                            </div>
+                            <div class="price">$9.49</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h4>four cheese garlic bread</h4>
+                                <p>Toasted french bread topped with romano, sheddar, jack and parmesan, with a light layer of roasted garlic butter.</p>
+                            </div>
+                            <div class="price">$5.09</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h4>french fries</h4>
+                                <p>Hand cut wedges of yukan gold potatoes fried in canola oil and tossed with tuffle sea salt.</p>
+                            </div>
+                            <div class="price">$7.01</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h4>fried calamari</h4>
+                                <p>Breaded calamari, lightly fried in canola oil, served with a side of marinars.</p>
+                            </div>
+                            <div class="price">$8.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h4>stuffed mushrooms</h4>
+                                <p>Mushrooms caps baked with a filling of three choice cheese, breadcrumbs and clams.</p>
+                            </div>
+                            <div class="price">$8.03</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <h3 class="title">pastas</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <h4>marinara pasta</h4>
+                            <div class="price">$7.95</div>
+                        </div>
+                        <div class="box">
+                            <h4>bolognese</h4>
+                            <div class="price">$8.95</div>
+                        </div>
+                        <div class="box">
+                            <h4>stuffed shells</h4>
+                            <div class="price">$9.95</div>
+                        </div>
+                        <div class="box">
+                            <h4>alfredo pasta</h4>
+                            <div class="price">$9.95</div>
+                        </div>
+                        <div class="box">
+                            <h4>ravioli pasta</h4>
+                            <div class="price">$6.95</div>
+                        </div>
+                        <div class="box">
+                            <h4>shrimp pasta</h4>
+                            <div class="price">$10.95</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <h3 class="title">coffee and drinks</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <h4>orange blossom latte</h4>
+                            <div class="price">$4.85</div>
+                        </div>
+                        <div class="box">
+                            <h4>syrian tea</h4>
+                            <div class="price">$4.85</div>
+                        </div>
+                        <div class="box">
+                            <h4>cappuccino</h4>
+                            <div class="price">$4.85</div>
+                        </div>
+                        <div class="box">
+                            <h4>mocha</h4>
+                            <div class="price">$4.85</div>
+                        </div>
+                        <div class="box">
+                            <h4>chai tea</h4>
+                            <div class="price">$4.85</div>
+                        </div>
+                        <div class="box">
+                            <h4>expresso</h4>
+                            <div class="price">$4.85</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="order" id="order">
+        <div class="heading">
+            <h3>home <span>delivery</span></h3>
+        </div>
+        <div class="wrapper">
+            <div class="form-wrapper">
+                <div class="content">
+                    <h4>delivery hours</h4>
+                    <p>12am - 3pm</p>
+                    <p>6:30pm - 10pm</p>
+                </div>
+                <form>
+                    <div class="inputbox">
+                        <span>fullname:</span>
+                        <input type="text">
+                    </div>
+                    <div class="inputbox">
+                        <span>food name:</span>
+                        <input type="text">
+                    </div>
+                    <div class="inputbox">
+                        <span>order details:</span>
+                        <input type="text">
+                    </div>
+                    <div class="inputbox">
+                        <span>contact:</span>
+                        <input type="number">
+                    </div>
+                    <div class="inputbox">
+                        <span>your address:</span>
+                        <textarea></textarea>
+                    </div>
+                    <input type="button" value="order now" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="blog" id="blog">
+        <div class="heading">
+            <h3>our <span>blog</span></h3>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-img-1.jpg" alt="">
+                </div>
+                <div class="content-one">
+                    <div class="icon">
+                        <div class="fas fa-user"></div>
+                        <span>admin</span>
+                    </div>
+                    <div class="text">21st may, 2022</div>
+                </div>
+                <div class="content-two">
+                    <h4>hamburger menu</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi cupiditate voluptatem illum ullam nemo. Vero similique aspernatur numquam perferendis temporibus.</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-img-2.jpg" alt="">
+                </div>
+                <div class="content-one">
+                    <div class="icon">
+                        <div class="fas fa-user"></div>
+                        <span>admin</span>
+                    </div>
+                    <div class="text">21st may, 2022</div>
+                </div>
+                <div class="content-two">
+                    <h4>tasty slice of sandwich</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi cupiditate voluptatem illum ullam nemo. Vero similique aspernatur numquam perferendis temporibus.</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-img-3.jpg" alt="">
+                </div>
+                <div class="content-one">
+                    <div class="icon">
+                        <div class="fas fa-user"></div>
+                        <span>admin</span>
+                    </div>
+                    <div class="text">21st may, 2022</div>
+                </div>
+                <div class="content-two">
+                    <h4>fries tuesday</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi cupiditate voluptatem illum ullam nemo. Vero similique aspernatur numquam perferendis temporibus.</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-img-4.jpg" alt="">
+                </div>
+                <div class="content-one">
+                    <div class="icon">
+                        <div class="fas fa-user"></div>
+                        <span>admin</span>
+                    </div>
+                    <div class="text">21st may, 2022</div>
+                </div>
+                <div class="content-two">
+                    <h4>ice cream chocolatte</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi cupiditate voluptatem illum ullam nemo. Vero similique aspernatur numquam perferendis temporibus.</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-img-5.jpg" alt="">
+                </div>
+                <div class="content-one">
+                    <div class="icon">
+                        <div class="fas fa-user"></div>
+                        <span>admin</span>
+                    </div>
+                    <div class="text">21st may, 2022</div>
+                </div>
+                <div class="content-two">
+                    <h4>pizza day</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi cupiditate voluptatem illum ullam nemo. Vero similique aspernatur numquam perferendis temporibus.</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-img-6.jpg" alt="">
+                </div>
+                <div class="content-one">
+                    <div class="icon">
+                        <div class="fas fa-user"></div>
+                        <span>admin</span>
+                    </div>
+                    <div class="text">21st may, 2022</div>
+                </div>
+                <div class="content-two">
+                    <h4>express your mood with espresso</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi cupiditate voluptatem illum ullam nemo. Vero similique aspernatur numquam perferendis temporibus.</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3 class="title">opening hours</h3>
+                <p>8am - 10pm</p>
+            </div>
+            <div class="box">
+                <h3 class="title">contact us</h3>
+                <p>+234 8001244532</p>
+                <p>+234 1234567890</p>
+            </div>
+            <div class="box">
+                <h3 class="title">email</h3>
+                <p>dominosfood@gmail.com</p>
+            </div>
+            <div class="box">
+                <h3 class="title">address</h3>
+                <p>69, bode thomas street, <br> surulere, lagos state, nigeria</p>
+            </div>
+            <div class="box">
+                <h3 class="title">follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+                <a href="#">twitter</a>
+            </div>
+        </div>
+        <div class="credits">Created and designed by <span>ikediashi anita ifeoma</span> | all rights reserved</div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
